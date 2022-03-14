@@ -1,0 +1,31 @@
+twitch:
+  botName:
+    AlphariusB
+  channelName:
+    smokerwh
+  prefix:
+    !
+  oauthToken:
+    vh6nhxnnxl5pkdafy6ujm0j2verpz9
+  clientID:
+    gp762nuuoqcoxypju8c569th9wz7q5
+
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+  data:
+    mongodb:
+      authentication-database: admin
+      username: root
+      password: rootpassword
+      database: second_react_db
+      port: 27017
+      host: localhost
+
+
+logging:
+  pattern:
+    console: "%d{yyyy-mmm-dd HH:mm:ss.SSS} %highlight(%-5level) %cyan(%logger{15}) - %msg %n"
+  level:
+    root: INFO
